@@ -1,0 +1,54 @@
+.card {
+    background-color: #363636;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-areas:
+        "checkbox ."
+        "checkbox .";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3rem 1fr;
+    column-gap: 0.5rem;
+    row-gap: 0.25rem;
+}
+
+.card__checkbox-wrapper {
+    grid-area: checkbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__checkbox-wrapper>input[type="checkbox"] {
+    appearance: none;
+}
+
+.card__checkbox-wrapper>label {
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card__checkbox-wrapper>input[type="checkbox"]:checked+label {
+    background-color: #fff;
+}
+
+.card__title {
+    color: #fff;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    padding-inline: 0.5rem;
+}
+
+.card__subtitle {
+    color: #afafaf;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    padding-inline: 0.5rem;
+}

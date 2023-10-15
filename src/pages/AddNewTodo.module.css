@@ -1,0 +1,12 @@
+.add-new-todo-page {
+    padding: 0.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .form-field-wrapper {
+    margin-top: 0.75rem;
+  }
+  
