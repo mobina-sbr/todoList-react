@@ -52,3 +52,7 @@
     text-align: start;
     padding-inline: 0.5rem;
 }
+.btn__trash{
+    position: absolute;
+    right: 40px;
+}

@@ -36,6 +36,7 @@ export default function Input({ id, value, onChange, label, type = "text" }) {
             </label>
 
             <input
+                maxLength={30}
                 id={id}
                 className={classes.input}
                 type={type}

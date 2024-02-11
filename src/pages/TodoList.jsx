@@ -33,6 +33,7 @@ export default function TodoList() {
     const todoList = window.localStorage.getItem("todoList")
         ? JSON.parse(window.localStorage.getItem("todoList"))
         : [];
+        // localStorage.clear();
     return (
         <AppLayout>
             <div className={classes.todoListPage}>
